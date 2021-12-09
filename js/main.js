@@ -17,7 +17,7 @@ const projects = [{
   },
   {
     img: "images/project2.png",
-    title: "Inernation",
+    title: "Internation",
     desc: "Website for the Cambridge learning center of Uzbekistan. A learning center is a specialized place within a classroom that offers students engaging and intriguing opportunities to practice, enrich, reteach, and increase their learning.",
     link: "https://www.inter-nation.uz/"
   },
