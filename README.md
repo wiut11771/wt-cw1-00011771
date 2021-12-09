@@ -26,5 +26,5 @@ Places discovered
 ## Footer
 links for social
 
-## Github :
-## Netlify :
+## Netlify :https://wiut11771.netlify.app/
+## Github : https://github.com/wiut11771/wt-cw1-00011771
