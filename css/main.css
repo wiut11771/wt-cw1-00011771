@@ -623,3 +623,35 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/* EXPERIENCE */
+
+.experience {
+  padding: 70px 0;
+  background: linear-gradient(90deg, #091120 18%, #1b1c4a 38%, #091120 62%);
+}
+
+.experience-heading {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #1b1c4a;
+}
+
