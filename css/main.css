@@ -433,3 +433,81 @@ body::-webkit-scrollbar-thumb {
 .main-logo:active {
   opacity: 0.4;
 }
+
+
+.hero {
+  padding-top: 50px;
+  background: #091120;
+  background: linear-gradient(90deg, #091120 18%, #1b1c4a 38%, #091120 62%);
+}
+
+.hero-container {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 350px);
+  background-size: contain;
+}
+
+.hero-content {
+  width: 50%;
+  margin-left: auto;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-content {
+    width: 100%;
+  }
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 54px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.hero-title-mark {
+  color: #5221e6;
+}
+
+.hero-txt {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  .hero-container {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero-container {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-content {
+    width: 60%;
+  }
+
+  .hero-title {
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-content {
+    width: 100%;
+  }
+}
